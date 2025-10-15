@@ -50,7 +50,7 @@ public class Main {
                     }
                     long endTimeLinear = System.nanoTime();
                     long duracaoMsLinear = (endTimeLinear - startTimeLinear) / 1_000_000;
-                    System.out.printf("[Sond. Linear] Inserção: %d ms, Colisões: %d\n", duracaoMsLinear, totalColisoesLinear);
+                    System.out.printf("[Linear] Inserção: %d ms, Colisões: %d\n", duracaoMsLinear, totalColisoesLinear);
 
                     long startTimeBuscaLinear = System.nanoTime();
                     for(Registro reg : dados) {
@@ -58,11 +58,11 @@ public class Main {
                     }
                     long endTimeBuscaLinear = System.nanoTime();
                     long duracaoMsBuscaLinear = (endTimeBuscaLinear - startTimeBuscaLinear) / 1_000_000;
-                    System.out.printf("[Sond. Linear] Busca: %d ms\n", duracaoMsBuscaLinear);
+                    System.out.printf("[Linear] Busca: %d ms\n", duracaoMsBuscaLinear);
                     tabelaLinear.analisarGaps();
 
                 } else {
-                    System.out.println("[Sond. Linear] Teste pulado (mais dados do que o tamanho da tabela).");
+                    System.out.println("[Linear] Teste pulado (mais dados do que o tamanho da tabela).");
                 }
 
 
@@ -76,7 +76,7 @@ public class Main {
                     }
                     long endTimeQuad = System.nanoTime();
                     long duracaoMsQuad = (endTimeQuad - startTimeQuad) / 1_000_000;
-                    System.out.printf("[Sond. Quadrática] Inserção: %d ms, Colisões: %d\n", duracaoMsQuad, totalColisoesQuad);
+                    System.out.printf("[Quadrática] Inserção: %d ms, Colisões: %d\n", duracaoMsQuad, totalColisoesQuad);
 
                     long startTimeBuscaQuad = System.nanoTime();
                     for (Registro reg : dados) {
@@ -84,11 +84,11 @@ public class Main {
                     }
                     long endTimeBuscaQuad = System.nanoTime();
                     long duracaoMsBuscaQuad = (endTimeBuscaQuad - startTimeBuscaQuad) / 1_000_000;
-                    System.out.printf("[Sond. Quadrática] Busca: %d ms\n", duracaoMsBuscaQuad);
+                    System.out.printf("[Quadrática] Busca: %d ms\n", duracaoMsBuscaQuad);
                     tabelaQuadratica.analisarGaps();
 
                 } else {
-                    System.out.println("[Sond. Quadrática] Teste pulado (mais dados do que o tamanho da tabela).");
+                    System.out.println("[Quadrática] Teste pulado (mais dados do que o tamanho da tabela).");
                 }
             }
         }
