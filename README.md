@@ -40,7 +40,7 @@ O experimento foi conduzido sob os seguintes parâmetros fixos para garantir uma
 
 Os resultados completos do experimento foram coletados e organizados. A seguir, apresentamos uma tabela consolidada e os gráficos mais relevantes que ilustram o desempenho de cada método.
 
-### Tabela 1: Comparativo de Desempenho no Cenário de Estresse
+### Tabela: Comparativo de Desempenho no Cenário de Estresse
 
 *Condições: Tabela com 100.003 posições, inserindo 100.000 registros (Fator de Carga ≈ 99.9%)*
 
@@ -63,11 +63,63 @@ Os resultados completos do experimento foram coletados e organizados. A seguir, 
 
 -----
 
-### Tabela 2: Dados Completos do Experimento
+### Tabela: Dados Completos do Experimento
 
-Todos os dados brutos coletados durante a execução dos testes estão disponíveis no arquivo CSV a seguir, para uma análise mais detalhada.
+<details>
+<summary><strong>Clique para ver a Tabela com os Resultados Completos</strong></summary>
 
-[Clique aqui para ver os resultados completos (resultadosCompletos.csv)](resultadosCompletos.csv)
+| Método | Tamanho Tabela | Tamanho Dados | Métrica | Valor |
+| :--- | :--- | :--- | :--- | ---: |
+| Encadeamento | 1009 | 100000 | Tempo Inserção (ms) | 80 |
+| Encadeamento | 1009 | 100000 | Colisões Inserção | 4.957.252 |
+| Encadeamento | 1009 | 100000 | Tempo Busca (ms) | 145 |
+| Encadeamento | 1009 | 100000 | Maiores Listas | 133; 127; 126 |
+| Encadeamento | 1009 | 1000000 | Tempo Inserção (ms) | 25.432 |
+| Encadeamento | 1009 | 1000000 | Colisões Inserção | 495.541.020 |
+| Encadeamento | 1009 | 1000000 | Tempo Busca (ms) | 39.479 |
+| Encadeamento | 1009 | 1000000 | Maiores Listas | 1096; 1090; 1089 |
+| Encadeamento | 1009 | 10000000 | Tempo Inserção (ms) | 3.542.953 |
+| Encadeamento | 1009 | 10000000 | Colisões Inserção | 49.553.845.982 |
+| Encadeamento | 1009 | 10000000 | Tempo Busca (ms) | 776.902 |
+| Encadeamento | 1009 | 10000000 | Maiores Listas | 10237; 10167; 10164 |
+| Encadeamento | 10007 | 100000 | Tempo Inserção (ms) | 3 |
+| Encadeamento | 10007 | 100000 | Colisões Inserção | 500.287 |
+| Encadeamento | 10007 | 100000 | Tempo Busca (ms) | 4 |
+| Encadeamento | 10007 | 100000 | Maiores Listas | 23; 23; 23 |
+| Encadeamento | 10007 | 1000000 | Tempo Inserção (ms) | 2.209 |
+| Encadeamento | 10007 | 1000000 | Colisões Inserção | 49.963.641 |
+| Encadeamento | 10007 | 1000000 | Tempo Busca (ms) | 4.295 |
+| Encadeamento | 10007 | 1000000 | Maiores Listas | 139; 137; 136 |
+| Encadeamento | 10007 | 10000000 | Tempo Inserção (ms) | 195.211 |
+| Encadeamento | 10007 | 10000000 | Colisões Inserção | 4.996.373.021 |
+| Encadeamento | 10007 | 10000000 | Tempo Busca (ms) | 78.176 |
+| Encadeamento | 10007 | 10000000 | Maiores Listas | 1120; 1109; 1108 |
+| Encadeamento | 100003 | 100000 | Tempo Inserção (ms) | 2 |
+| Encadeamento | 100003 | 100000 | Colisões Inserção | 50.448 |
+| Encadeamento | 100003 | 100000 | Tempo Busca (ms) | 1 |
+| Encadeamento | 100003 | 100000 | Maiores Listas | 8; 7; 7 |
+| Linear | 100003 | 100000 | Tempo Inserção (ms) | 111 |
+| Linear | 100003 | 100000 | Colisões Inserção | 24.647.659 |
+| Linear | 100003 | 100000 | Tempo Busca (ms) | 111 |
+| Linear | 100003 | 100000 | Gap Menor | 1 |
+| Linear | 100003 | 100000 | Gap Maior | 1 |
+| Linear | 100003 | 100000 | Gap Média | 1.0 |
+| Quadrática | 100003 | 100000 | Tempo Inserção (ms) | 8 |
+| Quadrática | 100003 | 100000 | Colisões Inserção | 1.053.465 |
+| Quadrática | 100003 | 100000 | Tempo Busca (ms) | 17 |
+| Quadrática | 100003 | 100000 | Gap Menor | 1 |
+| Quadrática | 100003 | 100000 | Gap Maior | 1 |
+| Quadrática | 100003 | 100000 | Gap Média | 1.0 |
+| Encadeamento | 100003 | 1000000 | Tempo Inserção (ms) | 173 |
+| Encadeamento | 100003 | 1000000 | Colisões Inserção | 4.998.308 |
+| Encadeamento | 100003 | 1000000 | Tempo Busca (ms) | 207 |
+| Encadeamento | 100003 | 1000000 | Maiores Listas | 26; 26; 25 |
+| Encadeamento | 100003 | 10000000 | Tempo Inserção (ms) | 41.400 |
+| Encadeamento | 100003 | 10000000 | Colisões Inserção | 499.977.209 |
+| Encadeamento | 100003 | 10000000 | Tempo Busca (ms) | 37.399 |
+| Encadeamento | 100003 | 10000000 | Maiores Listas | 150; 145; 144 |
+
+</details>
 
 ## 4\. Análise dos Resultados
 
