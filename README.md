@@ -61,6 +61,15 @@ Os resultados completos do experimento foram coletados e organizados. A seguir, 
 **Gráfico 3: Colisões para os 3 tipos**
 ![](src/img/grafo4.png)
 
+**Gráfico 4: Colisões para o encadeamento com 1 milhão de dados**
+![](src/img/grafo5.png)
+
+**Gráfico 5: Colisões para o encadeamento com 10 milhões de dados**
+![](src/img/grafo6.png)
+
+**Gráfico 5: Tempo de busca para os 3 tipos**
+![](src/img/grafo7.png)
+
 -----
 
 ### Tabela: Dados Completos do Experimento
