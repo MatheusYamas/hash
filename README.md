@@ -67,7 +67,7 @@ Os resultados completos do experimento foram coletados e organizados. A seguir, 
 
 Todos os dados brutos coletados durante a execução dos testes estão disponíveis no arquivo CSV a seguir, para uma análise mais detalhada.
 
-[Clique aqui para ver os resultados completos (resultados_completos.csv)](resultados_completos.csv)
+[Clique aqui para ver os resultados completos (resultadosCompletos.csv)](resultadosCompletos.csv)
 
 ## 4\. Análise dos Resultados
 
