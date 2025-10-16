@@ -1,0 +1,49 @@
+Método;Tamanho Tabela;Tamanho Dados;Métrica;Valor
+Encadeamento;1009;100000;Tempo Inserção (ms);80
+Encadeamento;1009;100000;Colisões Inserção;4957252
+Encadeamento;1009;100000;Tempo Busca (ms);145
+Encadeamento;1009;100000;Maiores Listas;"133; 127; 126"
+Encadeamento;1009;1000000;Tempo Inserção (ms);25432
+Encadeamento;1009;1000000;Colisões Inserção;495541020
+Encadeamento;1009;1000000;Tempo Busca (ms);39479
+Encadeamento;1009;1000000;Maiores Listas;"1096; 1090; 1089"
+Encadeamento;1009;10000000;Tempo Inserção (ms);3542953
+Encadeamento;1009;10000000;Colisões Inserção;49553845982
+Encadeamento;1009;10000000;Tempo Busca (ms);776902
+Encadeamento;1009;10000000;Maiores Listas;"10237; 10167; 10164"
+Encadeamento;10007;100000;Tempo Inserção (ms);3
+Encadeamento;10007;100000;Colisões Inserção;500287
+Encadeamento;10007;100000;Tempo Busca (ms);4
+Encadeamento;10007;100000;Maiores Listas;"23; 23; 23"
+Encadeamento;10007;1000000;Tempo Inserção (ms);2209
+Encadeamento;10007;1000000;Colisões Inserção;49963641
+Encadeamento;10007;1000000;Tempo Busca (ms);4295
+Encadeamento;10007;1000000;Maiores Listas;"139; 137; 136"
+Encadeamento;10007;10000000;Tempo Inserção (ms);195211
+Encadeamento;10007;10000000;Colisões Inserção;4996373021
+Encadeamento;10007;10000000;Tempo Busca (ms);78176
+Encadeamento;10007;10000000;Maiores Listas;"1120; 1109; 1108"
+Encadeamento;100003;100000;Tempo Inserção (ms);2
+Encadeamento;100003;100000;Colisões Inserção;50448
+Encadeamento;100003;100000;Tempo Busca (ms);1
+Encadeamento;100003;100000;Maiores Listas;"8; 7; 7"
+Linear;100003;100000;Tempo Inserção (ms);111
+Linear;100003;100000;Colisões Inserção;24647659
+Linear;100003;100000;Tempo Busca (ms);111
+Linear;100003;100000;Gap Menor;1
+Linear;100003;100000;Gap Maior;1
+Linear;100003;100000;Gap Média;1.0
+Quadrática;100003;100000;Tempo Inserção (ms);8
+Quadrática;100003;100000;Colisões Inserção;1053465
+Quadrática;100003;100000;Tempo Busca (ms);17
+Quadrática;100003;100000;Gap Menor;1
+Quadrática;100003;100000;Gap Maior;1
+Quadrática;100003;100000;Gap Média;1.0
+Encadeamento;100003;1000000;Tempo Inserção (ms);173
+Encadeamento;100003;1000000;Colisões Inserção;4998308
+Encadeamento;100003;1000000;Tempo Busca (ms);207
+Encadeamento;100003;1000000;Maiores Listas;"26; 26; 25"
+Encadeamento;100003;10000000;Tempo Inserção (ms);41400
+Encadeamento;100003;10000000;Colisões Inserção;499977209
+Encadeamento;100003;10000000;Tempo Busca (ms);37399
+Encadeamento;100003;10000000;Maiores Listas;"150; 145; 144"
